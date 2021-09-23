@@ -1,0 +1,30 @@
+{
+    "editor.formatOnType": true,
+    "files.autoSave": "afterDelay",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/built/**": true,
+        "**/node_modules/**": true,
+        "**/yotta_modules/**": true,
+        "**/yotta_targets": true,
+        "**/pxt_modules/**": true
+    },
+    "files.associations": {
+        "*.ts": "cpp",
+        "*.blocks": "html",
+        "*.jres": "json",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "xmemory0": "cpp",
+        "xtr1common": "cpp",
+        "xutility": "cpp"
+    },
+    "search.exclude": {
+        "**/built": true,
+        "**/node_modules": true,
+        "**/yotta_modules": true,
+        "**/yotta_targets": true,
+        "**/pxt_modules": true
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
